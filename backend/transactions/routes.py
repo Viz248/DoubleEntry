@@ -8,7 +8,7 @@ transac_router=APIRouter()
 
 
 @transac_router.post("/")
-def create_transaction(transaction: TransactionCreate, session: Session = Depends(get_transac_session)):
+def create_transaction(transaction: TransactionCreate, session: Session=Depends(get_transac_session)):
     transaction=Transaction(**transaction.model_dump())
     session.add(transaction)
     session.commit()
