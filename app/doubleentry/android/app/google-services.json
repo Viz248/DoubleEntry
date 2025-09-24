@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "182516338664",
+    "project_id": "double-entry-5f70a",
+    "storage_bucket": "double-entry-5f70a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182516338664:android:d7edc94bbdf8751dd21e5d",
+        "android_client_info": {
+          "package_name": "com.example.doubleentry"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOeTbNZE1SzZ85-q87sfNo-1kcoV5CdL8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
